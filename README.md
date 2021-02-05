@@ -54,9 +54,15 @@ First download the secret.json file If you rename it, it will be credentials.jso
 
 - just deployed to Heroku
 
-# How to deploy?
+# How to deploy in Heroku
 
-## [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Satriouz/python-aria-mirror-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Satriouz/python-aria-mirror-bot)
+
+Hit the deploy to heroku button and follow the further instructions in the screen:
+
+**NB: Usage of Aria2 may leads to the suspension of your heroku account so deploy at your own risk.**
+
+# How to deploy?
 
 Deploying is pretty much straight forward and is divided into several steps as follows:
 ## Installing requirements
