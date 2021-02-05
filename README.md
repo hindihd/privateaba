@@ -18,6 +18,42 @@ This project is heavily inspired from @out386 's telegram bot which is written i
 
 # Upcoming features (TODOs):
 
+## Android
+(Before deploying in heroku follow this step first)
+
+- termux-setup-storage
+
+- cd /sdcard
+
+- pkg install git
+
+- git clone "your aria repo link"
+
+- cd python-aria-mirror-bot
+
+- pkg install python
+
+- pip3 install -r requirements-cli.txt
+
+- pip install --upgrade pip
+Note : if you want to upgrade the pip version
+
+First download the secret.json file If you rename it, it will be credentials.json continue to save it in /sdcard/python-aria-mirror-bot
+
+- python3 generate_drive_token.py
+(follow the directions in termux)
+
+- git config --global user.email "you@example.com"
+(fill in github email without the ")
+
+- git config --global user.name "Your Name" (fill in your github username without the " )
+
+- git add -f credentials.json && git add --all && git commit -asm "add creds"
+
+- git push -u origin master
+
+- just deployed to Heroku
+
 # How to deploy?
 
 ## [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Satriouz/python-aria-mirror-bot)
