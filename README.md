@@ -56,7 +56,7 @@ First download the secret.json file If you rename it, it will be credentials.jso
 
 # How to deploy in Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Satriouz/python-aria-mirror-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hindihd/python-aria-mirror-bot)
 
 Hit the deploy to heroku button and follow the further instructions in the screen:
 
